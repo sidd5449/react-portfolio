@@ -7,16 +7,15 @@ import { AppWrap } from '../../wrapper'
 
 const abouts = [
   {title: 'Web Development', description: 'I am a good web developer', imgUrl:images.about01},
-  {title: 'Web Development', description: 'I am a good web developer', imgUrl : images.about02},
-  {title: 'Web Development', description: 'I am a good web developer', imgUrl : images.about03},
-  {title: 'Web Development', description: 'I am a good web developer', imgUrl : images.about01},
+  {title: 'Web Design', description: 'I have a good eye for web designing', imgUrl : images.about02},
+  {title: 'Graphics Designing', description: 'I can design graphics using Canva', imgUrl : images.about04},
 ]
 
 const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Design</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text">I Know that <span>Good Website</span> <br />means  <span>Good Business</span></h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
