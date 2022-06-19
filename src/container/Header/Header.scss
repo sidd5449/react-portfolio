@@ -188,3 +188,22 @@
         
     }
 }
+@media (prefers-color-scheme: dark){
+    #home{
+        background: url(../../assets/image.png);
+        background-size: cover;
+        background-repeat: repeat;
+        background-repeat: center;
+    }
+    .app__header-circles div{
+        background-color: #191331;
+
+        &:hover{
+            box-shadow: 0 0 25px #2a2c5d;
+            cursor: pointer;
+        }
+    }
+    .app__header-badge .badge-cmp, .app__header-badge .tag-cmp{
+        background-color: #101122;
+    }
+}

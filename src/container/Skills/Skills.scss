@@ -45,6 +45,7 @@
         height: 90px;
         border-radius: 50%;
         background-color: #fff;
+        transition: all 0.3s ease-in-out;
 
         img{
             width: 50%;
@@ -79,5 +80,18 @@
             margin-top: 1rem;
         }
         
+    }
+}
+@media (prefers-color-scheme: dark){
+    .app__skills-item div{
+        background-color: #191331;
+
+        &:hover{
+            box-shadow: 0 0 25px #2a2c5d;
+            cursor: pointer;
+        }
+    }
+    .app__skills-item p{
+        color: #fef4f5;
     }
 }

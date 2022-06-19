@@ -154,3 +154,11 @@
         
     }
 }
+@media (prefers-color-scheme: dark){
+    .app__navbar{
+        background: rgba(11, 4, 28, 0.25);
+        border: rgba(19, 16, 30, 0.25);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+}

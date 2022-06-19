@@ -128,3 +128,21 @@
       margin: 1rem 0;
     }
   }
+
+@media (prefers-color-scheme: dark){
+  .app__footer-cards .app__footer-card{
+    background-color: #191331;
+
+    &:hover{
+      box-shadow: 0 0 25px #2a2c5d;
+      cursor: pointer;
+    }
+  }
+  .app__footer-cards .app__footer-card:last-child{
+    background-color: #191331;
+    &:hover{
+      box-shadow: 0 0 25px #2a2c5d;
+      cursor: pointer;
+    }
+  }
+}
